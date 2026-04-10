@@ -30,11 +30,13 @@
 
     "outDir": "dist",
     "rootDir": "src",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "types": ["node"],
+    "ignoreDeprecations": "6.0"
   },
   "exclude": [
     "dist",
     "node_modules"
   ],
-  "include": ["src"]
+  "include": ["src"] 
 }
